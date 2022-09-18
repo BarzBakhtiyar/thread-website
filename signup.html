@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <!-- Google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Font awesome -->
+    <script
+      src="https://kit.fontawesome.com/b260d5cb00.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="main.js"></script>
+
+    <!--  css style link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main id="sign-up-container">
+      <!-- sign up -->
+      <section class="sign-up">
+        <!-- Logo -->
+        <div class="main-header_logo">
+          <a href="index.html">
+            <h2>thre<span>ad</span></h2></a
+          >
+        </div>
+
+        <!-- Form -->
+        <form class="sign-up_form">
+          <h3 class="sign-up_form--title">Create your thread account</h3>
+
+          <!-- Name Field -->
+          <fieldset class="sign-up_form--name-field fieldset">
+            <label for="name">Your Name</label>
+            <input type="text" placeholder="Steve Jobs" />
+          </fieldset>
+
+          <!-- Email Field -->
+          <fieldset class="sign-up_form--email-field fieldset">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="youremail@abc.com" />
+          </fieldset>
+
+          <!-- password Field -->
+          <fieldset class="sign-up_form--password-field fieldset">
+            <label for="password">Password</label>
+            <input type="password" placeholder="At Least 8 Charecters" />
+          </fieldset>
+
+          <!-- terms Field -->
+          <fieldset class="sign-up_form--terms-field fieldset">
+            <input type="checkbox" />
+            <p>
+              By creating an account on thread, you agree to the
+              <a href="#">Terms & Conditions</a>
+            </p>
+          </fieldset>
+          <!-- Submit  -->
+          <input type="submit" value="Create thread account" />
+
+          <!-- Sign In -->
+          <p class="sign-up_form--sign-in-para">
+            already have an account?&nbsp;<a href="#">Sign In</a>
+          </p>
+        </form>
+      </section>
+
+      <!-- Extra Info -->
+      <section class="extra-info">
+        <!-- image -->
+        <div class="extra-info_img">
+          <img src="images/sign-up.png" alt="sign up " />
+        </div>
+        <!-- content -->
+        <div class="extra-info_content">
+          <h2 class="extra-info_content--title">Unparalleled Templates</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
